@@ -6,3 +6,6 @@ public class addition {
         System.out.println("The sum is:" + sum);
     }
 }
+
+// output
+// The sum is:15
