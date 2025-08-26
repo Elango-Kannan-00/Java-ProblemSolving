@@ -6,8 +6,8 @@ public class J_040_Basic_RightAngledTriangle {
         int n = scan.nextInt();
 
         for (int i=1; i<=n; i++){
-            for (int j=0; j<i; j++){
-                System.out.print("*" + " ");
+            for (int j=1; j<=i; j++){
+                System.out.print(j + " ");
             }
             System.out.println();
         }
