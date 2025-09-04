@@ -11,6 +11,6 @@ public class J_061_Basic_ReverseWordsInSentence{
         for (int i=sentenceArray.length; i>0; i--){
             System.out.print(sentenceArray[i-1] + " ");
         }
-        scan.close();a
+        scan.close();
     }
 }
