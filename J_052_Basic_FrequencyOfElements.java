@@ -19,5 +19,40 @@ public class J_052_Basic_FrequencyOfElements {
             System.out.println(numArray[i] + " occured " + count + " time(s)");
         }
         scan.close();
+
+        // // Another method
+        //  System.out.println("Enter number of elements: ");
+        // int n = scan.nextInt();
+
+        // int[] arr = new int[n];
+        // System.out.println("Enter " + n + " integers: ");
+        // for (int i = 0; i < n; i++) {
+        //     arr[i] = scan.nextInt();
+        // }
+
+        // Find maximum element to decide frequency array size
+        // Finding the largest element in an array for defining the a=size of frequency array.
+        // int max = arr[0];
+        // for (int i = 1; i < n; i++) {
+        //     if (arr[i] > max) {
+        //         max = arr[i];
+        //     }
+        // }
+
+        // // Frequency array
+        // int[] count = new int[max + 1];
+
+        // // Count frequencies
+        // for (int num : arr) {
+        //     count[num]++;
+        // }
+
+        // // Print frequencies
+        // System.out.println("Frequency of each number:");
+        // for (int i = 0; i <= max; i++) {
+        //     if (count[i] > 0) {
+        //         System.out.println(i + " → " + count[i]);
+        //     }
+        // }
     }
 }
