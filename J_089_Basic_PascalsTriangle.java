@@ -10,7 +10,6 @@ public class J_089_Basic_PascalsTriangle {
             for (int space = 0; space < rows - i; space++) {
                 System.out.print("  ");
             }
-
             int number = 1; 
             for (int j = 0; j <= i; j++) {
                 System.out.print(number + "   ");
