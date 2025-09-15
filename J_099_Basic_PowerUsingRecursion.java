@@ -12,7 +12,7 @@ public class J_099_Basic_PowerUsingRecursion {
 
         System.out.print("Enter the power value: ");
         int power = scan.nextInt();
-        System.out.println("The power of give number " + base + "raised to the power of " + power + " is " + power(base, power));
+        System.out.println("The power of give number " + base + " raised to the power of " + power + " is " + power(base, power));
         scan.close();
     }
 }
