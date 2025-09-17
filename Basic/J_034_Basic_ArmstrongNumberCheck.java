@@ -7,6 +7,7 @@ public class J_034_Basic_ArmstrongNumberCheck {
         int originalNumber = number, originalNumber2 = number, count = 0, sumValue = 0;
 
         while (number > 0){ 
+            @SuppressWarnings("unused")
             int digit = number % 10; 
             count++;
             number /= 10;

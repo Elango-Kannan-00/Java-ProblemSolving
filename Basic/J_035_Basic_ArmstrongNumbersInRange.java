@@ -4,6 +4,7 @@ public class J_035_Basic_ArmstrongNumbersInRange {
             int originalNumber = i, originalNumber2 = i, count = 0, sumValue = 0;
 
             while (i > 0){ 
+                @SuppressWarnings("unused")
                 int digit = i % 10; 
                 count++;
                 i /= 10;
