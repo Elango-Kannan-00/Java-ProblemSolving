@@ -9,6 +9,7 @@ public class J_020_Basic_CountDigits {
         if (number <= 0){ System.out.println("Please enter a valid number."); }
         else {
             while (number > 0){
+                @SuppressWarnings("unused")
                 int digit = number % 10;
                 count++;
                 number /= 10;
