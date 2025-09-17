@@ -6,7 +6,7 @@ public class J_036_Basic_PerfectNumberCheck {
         int number = scan.nextInt();
         int sumValue = 0;
 
-        for (int i=1; i<number; i++){
+        for (int i=1; i<number/2; i++){
             if (number % i == 0) { sumValue += i; }
         }
 
