@@ -8,7 +8,7 @@ public class J_101_Medium_FactorialUsingMethod {
         for (int i=n; i>0; i--) { productValue *= i; }
         return productValue;
     }
-
+    
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter any number: ");
