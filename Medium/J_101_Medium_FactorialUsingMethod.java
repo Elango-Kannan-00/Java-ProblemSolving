@@ -11,7 +11,7 @@ public class J_101_Medium_FactorialUsingMethod {
     
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter any number: ");
+        System.out.print("Enter any number: ");
         int number = scan.nextInt();
 
         System.out.println("The factorial of a given number " + number + " is: " + factorial(number));
