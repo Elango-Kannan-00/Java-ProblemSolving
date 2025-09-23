@@ -20,5 +20,6 @@ public class J_102_Medium_CheckPalindromeString {
         boolean isPalindrome = stringPalindrome(word);
 
         System.out.println(isPalindrome ? "Yes, Palindrome." : "Not a Palindrome.");
+        scan.close();
     }
 }
