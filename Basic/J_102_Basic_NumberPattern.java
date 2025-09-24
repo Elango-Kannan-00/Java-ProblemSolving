@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class J_102_Basic_NumberPattern {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.print("Enter number of rows: ");
         int range = scan.nextInt();
 
         for (int i = 1; i <= range; i++) {
@@ -26,3 +27,10 @@ public class J_102_Basic_NumberPattern {
         scan.close();
     }
 }
+
+// Enter number of rows: 5
+//         1 
+//       2 3 2 
+//     3 4 5 4 3 
+//   4 5 6 7 6 5 4 
+// 5 6 7 8 9 8 7 6 5 
