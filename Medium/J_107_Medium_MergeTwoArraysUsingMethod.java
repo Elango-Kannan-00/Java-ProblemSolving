@@ -41,7 +41,7 @@ public class J_107_Medium_MergeTwoArraysUsingMethod {
         int[] mergeArray = arrayMerger(array1, array2);
         
         System.out.println("The merged array is...");
-        for (var x : mergedArray) {
+        for (var x : mergeArray) {
             System.out.print(x + " ");
         }
         scan.close();
