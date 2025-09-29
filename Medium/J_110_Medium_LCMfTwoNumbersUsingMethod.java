@@ -1,7 +1,7 @@
 package Medium;
 import java.util.Scanner;
 
-public class J_109_Medium_GCDOfTwoNumbersUsingMethod {
+public class J_110_Medium_LCMfTwoNumbersUsingMethod {
     public static int lcmCalculation(int n1, int n2) {
         int a = n1, b = n2;
         if (n1 > n2) {
