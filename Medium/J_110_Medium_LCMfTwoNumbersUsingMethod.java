@@ -1,4 +1,5 @@
 package Medium;
+
 import java.util.Scanner;
 
 public class J_110_Medium_LCMfTwoNumbersUsingMethod {
@@ -22,6 +23,7 @@ public class J_110_Medium_LCMfTwoNumbersUsingMethod {
             return lcm;
         }
     }
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter first number: ");
@@ -32,5 +34,5 @@ public class J_110_Medium_LCMfTwoNumbersUsingMethod {
 
         System.out.println("LCM of two numbers is: " + lcmCalculation(number1, number2));
         scan.close();
-    }    
+    }
 }
