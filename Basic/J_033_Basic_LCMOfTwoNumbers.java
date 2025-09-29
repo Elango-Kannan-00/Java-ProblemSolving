@@ -21,7 +21,7 @@ public class J_033_Basic_LCMOfTwoNumbers {
         }
         else {
              while (one > 0){
-                int digit = two % one;
+                int digit = two % one; 
                 two = one; one = digit;
             }
             int lcm = (originalOne * originalTwo)/two;
