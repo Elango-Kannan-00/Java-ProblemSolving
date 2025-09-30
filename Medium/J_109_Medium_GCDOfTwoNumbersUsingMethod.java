@@ -30,5 +30,6 @@ public class J_109_Medium_GCDOfTwoNumbersUsingMethod {
         int number2 = scan.nextInt();
 
         System.out.println("The GCD of given numbers is: " + gcdFinder(number1, number2));
+        scan.close();
     }
 }
